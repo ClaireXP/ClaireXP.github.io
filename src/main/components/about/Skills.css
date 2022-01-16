@@ -1,0 +1,53 @@
+.skillList {
+  display: flex;
+  flex-direction: row;
+
+  width: 85%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: baseline;
+}
+
+.skill {
+  min-width: 150px;
+  width: 33%;
+  max-width: 250px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.skillLogo {
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  max-width: 100px;
+  max-height: 100px;
+
+  opacity: .85;
+}
+
+#skills {
+  background-color: #1a3e4e30;
+}
+
+#skillContainer {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .skillLogo {
+    max-width: 75px;
+    max-height: 75px;
+  }  
+}

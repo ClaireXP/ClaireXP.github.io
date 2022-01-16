@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+
+  color: #f0f0f0;
+
+  cursor: default;
+  overflow: overlay;
+
+  background: #0E191B;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaaaaa7a;
+  border: 1px solid transparent;
+  border-radius:  100px;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000044;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 0px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: .9;
+}
+
+a {
+  font-size: 20px;
+  font-weight: normal;
+  color: #f0f0f0;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 18px;
+  opacity: .7;
+}
+
+.subsection {
+  padding-top: 4.5vw;
+  padding-bottom: 4.5vw;
+}
+
+/* Phones and tablets */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 26px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  a {
+    font-size: 16px;
+  }
+  
+  li, p {
+    font-size: 16px;
+  }
+
+  .subsection {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+}

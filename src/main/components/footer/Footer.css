@@ -1,0 +1,23 @@
+.carouselPic {
+  max-height: 300px;
+  width: auto;
+}
+
+#slideshowContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 4.5vw;
+  padding-top: 35px;
+  height: 350px;
+
+  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  #slideshowContainer {
+    margin-top: 5vh;
+  }
+}

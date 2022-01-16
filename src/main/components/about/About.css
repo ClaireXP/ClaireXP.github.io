@@ -1,0 +1,47 @@
+.separator {
+  width: 50px;
+}
+
+#bio {
+  width: 90vw;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#selfGraphic {
+  height: 250px;
+  width: 250px;
+
+  border-radius: 50%;
+
+  background: #1a3e4e30;
+}
+
+#statement {
+  width: 70%;
+  max-width: 850px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1110px) {
+  .separator {
+    height: 30px;
+    width: 100%;
+  }
+
+  #selfGraphic {
+    margin-top: 30px;
+  }
+
+  #statement {
+    text-align: center;
+    width: 80vw;
+  }
+}
