@@ -150,7 +150,7 @@ export default function Orgs() {
             In Fall 2021, I was one of three teaching assistants who
             roamed during labs and graded homeworks and quizzes for the
             first First-Year Engineering course. Our section had over
-            110 students. At the end of the semester, I recieved
+            110 students. At the end of the semester, I received
             excellent feedback from my GTA and Professor. The comments
             I left for students when grading were clear and succint,
             which led to one of the lowest regrade request rates.
