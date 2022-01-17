@@ -23,7 +23,7 @@ export default function Header() {
       </AnchorLink>
       
       <div id='pageHeader'>
-        <img id='headerPic' src='https://c.wallhere.com/photos/05/69/minimalism_starry_night_mountains_night_sky_lake_reflection-1954827.jpg!d' />
+        <img id='headerPic' alt='Modern Lake Background' src='https://c.wallhere.com/photos/05/69/minimalism_starry_night_mountains_night_sky_lake_reflection-1954827.jpg!d' />
         
         <h1 id='titleName'>Claire Poukey</h1>
 
