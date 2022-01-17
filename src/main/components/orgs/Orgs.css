@@ -1,6 +1,6 @@
 .logo {
   height: 60px;
-  width: fit-content;
+  width: auto;
   margin-top: 30px;
 
   cursor: pointer;
