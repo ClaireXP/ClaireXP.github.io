@@ -9,7 +9,7 @@ export default function About() {
           id='selfGraphic'
           alt='Graphic of Claire Poukey'
           src='https://drive.google.com/uc?id=1UnVCwuTEnnJCQwr69acTlt1PAVdiw79F'
-          onError="this.src='../../../assets/ClaireWebsiteGraphic.png'"
+          onError="this.src='/assets/ClaireWebsiteGraphic.png'"
         />
         <div className='separator'/>
         <div className='statement' id='statement'>
