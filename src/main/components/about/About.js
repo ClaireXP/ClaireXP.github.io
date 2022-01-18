@@ -4,7 +4,13 @@ export default function About() {
   return (
     <div className='subsection' id='about'>
       <div id='bio'>
-        <img className='selfGraphic' id='selfGraphic' alt='Graphic of Claire Poukey' src='https://drive.google.com/uc?id=1UnVCwuTEnnJCQwr69acTlt1PAVdiw79F'/>
+        <img
+          className='selfGraphic'
+          id='selfGraphic'
+          alt='Graphic of Claire Poukey'
+          src='https://drive.google.com/uc?id=1UnVCwuTEnnJCQwr69acTlt1PAVdiw79F'
+          onError="this.src='../../../assets/ClaireWebsiteGraphic.png'"
+        />
         <div className='separator'/>
         <div className='statement' id='statement'>
           <h2>About</h2>

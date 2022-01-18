@@ -51,6 +51,7 @@ export default function Orgs() {
           <img className='logo'
             src='https://drive.google.com/uc?id=1OHrCbzPaQQAE51yl73xwlpetxyp78N22'
             alt='Electrical Computer Engineering Student Society Logo'
+            onError="this.src='../../../assets/logos/ecessLogo.png'"
         /></a>
         <div className='orgDesc'>
           <p>
@@ -89,11 +90,13 @@ export default function Orgs() {
             className='mediaPost'
             src='https://drive.google.com/uc?id=1FJxPN6keFZlf7JxenEqj5DjsE6ihGXnw'
             alt='ECESS Game Night - Japan Graphic'
+            onError="this.src='../../../assets/GameNight-Japan.png'"
           />
           <img
             className='mediaPost'
             src='https://drive.google.com/uc?id=1r1YEpODHg9A-wtOGCsrb40XOGYtgse3z'
             alt='ECESS Ping Pong Social Graphic'
+            onError="this.src='../../../assets/pingPongSocial.png'"
           />
         </div>
 
@@ -102,6 +105,7 @@ export default function Orgs() {
           <img className='logo'
             src='https://drive.google.com/uc?id=1TclZlv80g1zaW_twxNsboel2d6u2nYU1'
             alt='Purdue Medical Innovation, Networking, and Design Logo'
+            onError="this.src='../../../assets/logos/mind.png'"
         /></a>
         <div className='orgDesc'>
           <p>
