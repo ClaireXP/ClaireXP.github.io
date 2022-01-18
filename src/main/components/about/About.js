@@ -8,8 +8,7 @@ export default function About() {
           className='selfGraphic'
           id='selfGraphic'
           alt='Graphic of Claire Poukey'
-          src='https://drive.google.com/uc?id=1UnVCwuTEnnJCQwr69acTlt1PAVdiw79F'
-          onError="this.src='https://imgur.com/eDIYccL'"
+          src='https://i.imgur.com/eDIYccL.jpg'
         />
         <div className='separator'/>
         <div className='statement' id='statement'>

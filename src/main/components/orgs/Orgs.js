@@ -50,8 +50,7 @@ export default function Orgs() {
           target='_blank' rel='noopener noreferrer'>
           <img className='logo'
             src='https://drive.google.com/uc?id=1OHrCbzPaQQAE51yl73xwlpetxyp78N22'
-            alt='Electrical Computer Engineering Student Society Logo'
-            onError="this.src='https://imgur.com/dz9zxzU'"
+            alt='https://i.imgur.com/dz9zxzU.jpg'
         /></a>
         <div className='orgDesc'>
           <p>
@@ -88,24 +87,21 @@ export default function Orgs() {
         <div className='graphicsExamples'>
           <img
             className='mediaPost'
-            src='https://drive.google.com/uc?id=1FJxPN6keFZlf7JxenEqj5DjsE6ihGXnw'
+            src='https://i.imgur.com/mOpoY5q.jpg'
             alt='ECESS Game Night - Japan Graphic'
-            onError="this.src='https://imgur.com/mOpoY5q'"
           />
           <img
             className='mediaPost'
-            src='https://drive.google.com/uc?id=1r1YEpODHg9A-wtOGCsrb40XOGYtgse3z'
+            src='https://i.imgur.com/FJQ2WR2.jpg'
             alt='ECESS Ping Pong Social Graphic'
-            onError="this.src='https://imgur.com/FJQ2WR2'"
           />
         </div>
 
         <a className='logoLink' href='https://purduemind.com/'
           target='_blank' rel='noopener noreferrer'>
           <img className='logo'
-            src='https://drive.google.com/uc?id=1TclZlv80g1zaW_twxNsboel2d6u2nYU1'
+            src='https://i.imgur.com/IwPTyB9.jpg'
             alt='Purdue Medical Innovation, Networking, and Design Logo'
-            onError="this.src='https://imgur.com/IwPTyB9'"
         /></a>
         <div className='orgDesc'>
           <p>
