@@ -91,7 +91,7 @@
   }
 }
 
-@media only screen and (min-width: 175vh) {
+@media only screen and (min-width: 180vh) {
   #headerPic {  
     width: 100vw;
     height: auto;

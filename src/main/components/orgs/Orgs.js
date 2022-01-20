@@ -49,8 +49,8 @@ export default function Orgs() {
         <a className='logoLink' href='https://www.purdue-ecess.org/'
           target='_blank' rel='noopener noreferrer'>
           <img className='logo'
-            src='https://drive.google.com/uc?id=1OHrCbzPaQQAE51yl73xwlpetxyp78N22'
-            alt='https://i.imgur.com/dz9zxzU.jpg'
+            src='https://i.imgur.com/dz9zxzU.jpg'
+            alt='Purdue Electrical Computer Engineering Logo'
         /></a>
         <div className='orgDesc'>
           <p>
