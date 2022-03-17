@@ -91,7 +91,14 @@
   }
 }
 
-@media only screen and (min-width: 180vh) {
+@media only screen and (min-width: 170vh) and (max-width: 185vh) {
+  #headerPic {  
+    width: 125vw;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 185vh) {
   #headerPic {  
     width: 100vw;
     height: auto;

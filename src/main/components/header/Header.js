@@ -32,8 +32,8 @@ export default function Header() {
             strings: ['Incoming Microsoft PM Intern', 'Presidential Scholar at Purdue University', 'Sophomore in Computer Engineering', 'Google STEP Intern ‘21'],
             autoStart: true,
             loop: true,
-            delay: 80,
-            deleteSpeed: 35,
+            delay: 70,
+            deleteSpeed: 34,
           }}
         />
       </div>
