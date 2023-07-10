@@ -29,11 +29,11 @@ export default function Header() {
 
         <Typewriter
           options={{
-            strings: ['Incoming Microsoft PM Intern', 'Presidential Scholar at Purdue University', 'Sophomore in Computer Engineering', 'Google STEP Intern ‘21'],
+            strings: ['Microsoft PM Intern ‘22 & ‘23', 'Presidential Scholar at Purdue University', 'Senior in Communication of Science and Technology', 'Google STEP Intern ‘21', 'EPICS Full-Stack Developer Lead'],
             autoStart: true,
             loop: true,
-            delay: 70,
-            deleteSpeed: 34,
+            delay: 68,
+            deleteSpeed: 32,
           }}
         />
       </div>

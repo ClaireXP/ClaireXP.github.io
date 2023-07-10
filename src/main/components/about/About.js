@@ -21,15 +21,14 @@ export default function About() {
           </p>
           
           <p>
-            Last summer, I interned for Google's TensorFlow.js team. This summer, I plan
-            on heading to Redmond, WA for a program management internship at Microsoft.
-            My diverse background and thirst for learning help me to dream big, connect
-            with others, and implement new ideas to create widespread impact.
+            Over the past few summers, I've interned in big tech for Microsoft and Google
+            in both technical and non-technical roles. I love to code, but my true passion
+            lies in advocating for the customers, defining product features, and prioritizing
+            asks to drive business. My diverse background and thirst for learning help me to 
+            dream big, connect with others, and implement new ideas to create widespread impact.
           </p>
 
-          <p>
-            MyStrengths: Learner, Analytical, Restorative, Relator, Responsibility
-          </p>
+          <p>MyStrengths: Learner, Analytical, Restorative, Relator, Responsibility</p>
         </div>
       </div>
     </div>

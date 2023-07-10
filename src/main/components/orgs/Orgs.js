@@ -1,7 +1,5 @@
 import './Orgs.css';
 
-import Feed from "instagram-feed-embed";
-
 export default function Orgs() {
   return (
     <div className='subsection' id='orgs'>
@@ -16,11 +14,11 @@ export default function Orgs() {
         /></a>
         <div className='orgDesc'>
           <p>
-            EPICS is an international organization run by teams of students. Teams undergo the complete engineering design process to develop, implement, and maintain a project for real project partners. I have been a member of the Deaf Kids Code team for just under two years. As the Project Manager, I am responsible for three teams--Deaf Kids Outreach, Keep the Tempo, and Live Captioning Environment. I am also a full-stack developer on Deaf Kids Outreach.
+            EPICS is an international organization run by teams of students. Teams undergo the complete engineering design process to develop, implement, and maintain a project for real project partners. I have been a member of the Deaf Kids Code team for just under three years. As the Design Lead for Deaf Kids Outreach, I onboard new members every semester--often from zero webdev experience to soloing medium-cost features--and complete large amounts of featurework myself.
           </p>
 
           <p>
-            As the Project Manager, I serve as a central point for planning and communications. I monitor the developmental states of all three projects, predict and clear hurdles, and send out biweekly announcements and reminders. I also lead weekly stand ups and reflection discussions and onboard new members.
+            In Spring 2021, I became the Project Manager, responsible for three teams--Deaf Kids Outreach, Keep the Tempo, and Live Captioning Environment. I served as a central point for planning and communications. I monitored the developmental states of all three projects, predict and clear hurdles, and send out biweekly announcements and reminders. I also led weekly stand ups and reflection discussions and onboard new members to the greater team.
           </p>
 
           <p>
@@ -36,15 +34,19 @@ export default function Orgs() {
         /></a>
         <div className='orgDesc'>
           <p>
+            If you've been reading the website closely, you may be confused as to why a Communication major was in the Electrical Computer Engineering Student Society. Well, like many others, I transferred out of Computer Engineering after realizing that I didn't enjoy it and despite loving coding, it wasn't what I wanted to do.
+          </p>
+
+          <p>
             In Fall 2021, I joined Purdue's Electrical Computer Engineering Student Society as the Multicultural Affairs Chair. Prior to Fall 2021, the committee had yet to run an event since Spring 2017 and kept no documentation. Through networking and collaboration, planning, and establishing clear communications and guidelines, I rejuvenated the committee from zero members to nine active students.
           </p>
 
           <p>
-            In its inaugural semester, the committee planned 4 events--a career fair prep night focused on international students, a ping pong social for undergrads, grads, and staff, a Dia Des Los Muertos celebration featuring sugar cookie decorating and Cocoa, and a Hunnakah celebration with the Dreidel Game and sufganiyot. In Spring 2022, the multicultural committee is more than doubling the number of events. We are continuing our collaborations with other student organizations to gain better awareness and amplify the voices of those with unique backgrounds.
+            In its inaugural semester, the committee planned 4 events--a career fair prep night focused on international students, a ping pong social for undergrads, grads, and staff, a Dia Des Los Muertos celebration featuring sugar cookie decorating and Cocoa, and a Hunnakah celebration with the Dreidel Game and sufganiyot. In Spring 2022, the multicultural committee more than doubled the number of events. We also continued our collaborations with other student organizations to gain better awareness and amplify the voices of those with unique backgrounds.
           </p>
 
           <p>
-            As the committee head, I am primarily responsible for task delegation and the overseeing of progress. However, I also submit Activity Planning Forms to our Student Association Organization, create and submit budgets, design flyers for our events, and tie up any loose ends. Examples of my graphics work can be seen below.
+            As the committee head, I was primarily responsible for task delegation and the overseeing of progress. However, I also submitted Activity Planning Forms to our Student Association Organization, create and submit budgets, design flyers for our events, and tie up any loose ends. Examples of my graphics work can be seen below.
           </p>
         </div>
 
@@ -62,6 +64,12 @@ export default function Orgs() {
           />
         </div>
 
+        <div>
+          <p>
+            In May 2022, I was elected to become the Treasurer of ECESS. I handled the club's budget of ~$8k--reviewing and approving purchases, submitting reimbursement requests, and helping with other various Executive duties.
+          </p>
+        </div>
+
         <a className='logoLink' href='https://purduemind.com/'
           target='_blank' rel='noopener noreferrer'>
           <img className='logo'
@@ -70,23 +78,18 @@ export default function Orgs() {
         /></a>
         <div className='orgDesc'>
           <p>
-            Purdue Medical Innovation, Networking, and Design pushes the forefront of technology, medicine, and design. Every year, the club undergoes the full-cycle engineering design process to produce three or four medical devices. I joined MIND as a first-year student in Fall 2020. Since, I have taken up several leadership roles including Director of Networking and Events, Webmaster, and Project Manager. Currently, I am leading a team of ten in developing a smart health tracker using Tensorflow. 
+            Purdue Medical Innovation, Networking, and Design pushes the forefront of technology, medicine, and design. Every year, the club undergoes the full-cycle engineering design process to produce three or four medical devices. I joined MIND as a first-year student in Fall 2020. Since, I have taken up several leadership roles including President, Director of Networking and Events, Webmaster, and Project Manager. 
           </p>
 
           <p>
-            As the Director of Networking and Events, I hold professional development workshops, coordinate volunteering events, and manage our social media. During my first semester in the position, I increased media engagement by over 500% and increased the number of followers by over 300%.
+            As the Director of Networking and Events, I held professional development workshops, coordinate volunteering events, and managed our social media. During my first semester in the position, I increased media engagement by over 500% and increased the number of followers by over 300%.
           </p>
         </div>
-        <h4>Instagram Feed</h4>
-        <div id='instaFeed'><Feed
-          userName='purdue.mind'
-          limit={20}
-        /></div>
 
         <a className='logoLink' href='https://engineering.purdue.edu/Engr'
           target='_blank' rel='noopener noreferrer'>
           <img className='logo'
-            src='https://www.purdue.edu/futureengineers/images/Purdue_Engineering_Logo.png'
+            src='https://engineering.purdue.edu/Wraps/ECO/wrap7/images/logo.png'
             alt='Purdue College of Engineering Logo'
         /></a>
         <div className='orgDesc'>
@@ -99,7 +102,7 @@ export default function Orgs() {
           </p>
 
           <p>
-            Spring 2022 is my second semester as a teaching assistant for the First-Year Engineering courses. I am one of four teaching assistants for my section of the second First-Year Engineering course, which focuses on MATLAB.
+            I continued as a teaching assistant for the First-Year Engineering courses through Spring 2022, when I transferred out of the College of Engineering. I assisted student with MATLAB, the Engineering Design Process, and Excel among other topics. My favorite part of TAing was when a student or a group of students would wait until I was making eye contact to raise their hand, because they knew I would be able to help them understand the materials.
           </p>
         </div>
       </div>
